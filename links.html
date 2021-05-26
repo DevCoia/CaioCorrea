@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="caioco.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação & Tecnologia</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+    *{box-sizing: border-box;}
+    body {margin: 0; background-image: linear-gradient(rgb(245, 245, 245), white);  background-repeat: repeat-x;}
+    header h1 {font-family: 'Odibee Sans', cursive; font-size: 50px; font-weight: 100; color: #4e4e4e; text-align: center; margin-top: 30px; display: block; height: 30px;}
+    header img {margin: auto; display: block; height: 250px; width: 250px; border-radius: 60%; margin-top: 30px;}
+    header h2 {font-family: 'Roboto', sans-serif; text-align: center; font-size: 25px; color: #4e4e4e; margin-top: 0px; font-weight: 100;}
+    h3 {text-align: center; display: block; margin-left: 10px; margin-right: 10px;}
+    a {text-decoration: none; color: #4e4e4e; text-align: center; font-family: 'Roboto', sans-serif; font-weight: 600;}
+    a:hover {color: black; font-size: 1.01em;}
+
+.column1 {
+ float: left; width: 400px; padding: 15px; margin: auto;}
+.column2 {
+ float: left; width: 400px; padding: 15px; margin: auto;}
+.column3 {
+ float: left; width: 400px; padding: 15px; margin: auto;}
+.row::after {content: ""; display: table; clear: both;}
+@media screen and (max-width: 1200px) {.column1 {width: 100%;}}
+@media screen and (max-width: 1200px) {.column2 {width: 100%;}}
+@media screen and (max-width: 1200px) {.column3 {width: 100%;}}
+
+.content {margin: auto; width:fit-content; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: justify;}
+.content p {text-align: justify;} 
+.footer {font-family: 'Roboto', sans-serif; display:block; margin-bottom:0; padding:0; overflow:hidden; bottom:0; width:100%; font-size: 13px; background-color: #4e4e4e; color: white; text-align: center;
+    }
+</style>
+</head>
+<header>
+<a href="https://devcoia.github.io/CaioCorrea/#">
+    <img src="caioco.jpg" alt="Caio Correa">
+    <h1>Caio Correa</h1>
+    <h2>Sempre adicionando notícias, artigos, livros e podcasts legais que vejo por aí</h2>
+</a>
+</header>
+<body>
+<div class="row"></div>
+<div class="content">
+    <div class="column1"> <h3>Sites e Artigos</h3>
+    <a href="https://www.felipefialho.com/blog/o-que-front-end-developers-precisam-saber/">Artigo: O que os desenvolvedores front-end precisam saber</a><p>Um artigo bastante interessante do @felipefialho_ que lista as habilidades e conhecimentos fundamentais que todo dev iniciante deveria possuir.</p>
+    <a href="https://www.felipefialho.com/blog/15-coisas-que-faria-se-estivesse-iniciando-minha-carreira-como-desenvolvedor">Artigo: As 15 coisas que faria se estivesse iniciando AGORA a minha carreira</a><p>Mais um artigo sensacional do @felipefialho_ que defende as 15 coisas que o programador front-end faria se estivesse começando hoje na carreira.</p>  
+    <a href="https://medium.com/@FilipeDeschamps/seja-um-programador-melhor-10-repositórios-sensacionais-no-github-tudo-open-source-136a0671b3c9">Artigo: 10 repositórios open-source no GitHub que vão te auxiliar bastante </a><p>O @FilipeDeschamps selecionou 10 repositórios abertos que todo programador deveria conhecer: Tem de tudo um pouco, desde dicas sobre comportamento em entrevistas de emprego até tutoriais imensos sobre programação. </p> 
+    </div>
+            <div class="column2">
+                <h3>Livros, Apostilas e Roadmaps</h3>
+                <a href="https://roadmap.sh/frontend">Roadmap anual para desenvolvedores front-end</a><p>Um roadmap atualizado anualmente pela @roadmap.sh com muitas recomendações sobre quais conteúdos devemos focar na hora de estudar.</p>
+                <a href="https://github.com/felipefialho/frontend-challenges">Exercícios e Avaliações de grandes empresas</a> <p>Um repositório incrível com alguns exercícios reais que grandes empresas pedem na hora de avaliar o trabalho de um dev front-end para contratação.</p>
+                <a href="https://github.com/frontendbr/doe-um-livro/issues">Doações de livros e apostilas físicas ou digitais</a><p>Um repositório muito bacaninha onde o pessoal se organiza para doar livros físicos e digitais gratuitos sobre tecnologia e linguagens de programação.</p>
+            </div>
+            <div class="column3">
+                <h3>Canais, Vídeos e Podcasts</h3>
+                <a href="https://www.youtube.com/c/CursoemVídeo">Canal: Curso em Vídeo</a><p>O canal curso em vídeo traz várias playlists com cursos completos e atualizados em várias linguagens de programação. Foi por lá o meu primeiro contato com HTML, CSS e JavaScript :)</p>
+                <a href="https://www.youtube.com/c/FabioAkita1990/playlists">Canal: Fabio Akita</a><p>Todo programador deveria acompanhar o canal do @FabioAkita, ou pelo menos assistir a sua playlist "Programação para Iniciantes". </p>
+</div>
+</div>
+</div>    
+</div>
+    <footer>
+        <div class="footer">
+            <p>A página que você está vendo foi feita por mim, em 2021, como forma de treino em CSS3 e HTML5, após duas semanas de estudos :) </p>
+        </div>
+        </footer>
+</body>
+</html>
