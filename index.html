@@ -1,15 +1,52 @@
-<html>
-   <head>
-      <link rel="stylesheet" href="style.css">
-        <title>My awesome web page</title>
-   </head>
-   <body>
-     <h1>Hello there, awesome person!</h1>   
-     <img src="https://avatars.githubusercontent.com/u/84155726?v=4">
-      <ul>
-<li><a href="http://twitter.com/nescaio">Twitter</a></li>
-<li><a href="http://youtube.com">Youtube</a></li>
-      <li>My favorite site is <a href="https://github.com">GitHub</a>!</li>
-</ul>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Correa</title>
+<link rel="shortcut icon" href="caioco.jpg" type="image/x-icon">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{box-sizing: border-box;}
+body {margin: 0; background-image: linear-gradient(rgb(245, 245, 245), white);  background-repeat: repeat-x;}
+header h1 {font-family: 'Odibee Sans', cursive; font-size: 50px; font-weight: 100; color: #4e4e4e; text-align: center; margin-top: 30px; display: block; height: 30px;}
+header img {margin: auto; display: block; height: 250px; width: 250px; border-radius: 60%; margin-top: 30px;}
+header h2 {font-family: 'Roboto', sans-serif; text-align: center; font-size: 25px; color: #4e4e4e; margin-top: 0px; font-weight: 100;}
+a {text-decoration: none; color: #4e4e4e; text-align: center; font-family: 'Roboto', sans-serif; font-weight: 400;} 
+.b1 {float: right;  padding: 10px; width: 50%; margin-top: 50px;}
+.b2 {float: right;  padding: 10px; width: 50%; margin-top: 50px;}
+.b3 {float: left; padding: 10px; width: 50%; margin: auto; margin-top: 3px;}
+.b4 {float: right; padding: 10px; width: 50%;  margin: auto;}
+.b1:hover, a:hover {color: black; font-size: 1.04em;}
+.b2:hover a:hover {color: black; font-size: 1.04em;}
+.b3:hover a:hover {color: black; font-size: 1.04em;}
+.b4:hover a:hover {color: black; font-size: 1.04em;}
+.row:after {content: ""; display: table; clear: both; }
+@media screen and (max-width:600px) {.row {width: 100%;}}
+.footer {font-family: 'Roboto', sans-serif;position: fixed;margin: 0;padding: 0;overflow: hidden;bottom: 0;width: 100%;font-size: 13px;background-color: #4e4e4e;color: white;text-align: center;}
+</style>
+</head>
+<header>
+    <img src="caioco.jpg" alt="Caio Correa">
+    <h1>Caio Correa</h1>
+ <h2>Meu caminho pelo front-end...</h2>
+</header>
+<body>
+<content>
+    <div class="row">
+<div class="b1"><a href="#"><h3>Programação & Tecnologia</h3><p>Sempre adicionando aqui artigos, notícias, livros e podcasts interessantes.</p></a></div>
+<div class="b2"><a href="#"><h3>Artigos</h3><p>Alguns artigos de minha autoria sobre programação e minhas dificuldades no front-end.</p></a></div>
+<div class="b3"><a href="http://instagram.com/nescaio_" target="_blank"><h3>Instagram</h3><p>Por aqui, você pode acompanhar o meu dia a dia.
+</p></a></div>
+<div class="b4"><a href="http://twitter.com/nescaio_" target="_blank"><h3>Twitter</h3><p>Usado geralmente para desabafos e inutilidades. Não entre. É sério.</p></a></div>
+</div>
+</content>
+<footer>
+<div class="footer">
+    <p>A página que você está vendo foi feita por mim, em 2021, como forma de treino em CSS3 e HTML5, após duas semanas de estudos :) </p>
+</div>
+</footer>
+</body>
 </html>
