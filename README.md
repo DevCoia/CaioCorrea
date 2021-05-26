@@ -1,14 +1,6 @@
-## Your GitHub Learning Lab Repository for Intro to HTML
+## Bem vindo ao meu repositório padrão do GitHub de introdução à HTML. 
 
-Welcome to your repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+Aproveitei que o sistema gerou este repositório padrão e resolvi colocar em prática os meus estudos em HTML 5 e CSS3. Foram duas semanas de bastante estudo e treino - mas finalmente (acho que) consegui criar minha primeira página pessoal hospedada aqui neste repositório, onde pretendo anexar alguns links interessantes sobre programação, minhas anotações, artigos e redes sociais. 
 
-Oh! I haven't introduced myself...
+Espero que gostem, pois este é só o meu começo na programação :) 
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
-
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
-
-I'll meet you over there, can't wait to get started!
-
-This repository is licensed under [MIT](LICENSE) (c) 2019 GitHub, Inc.
-Photo by [Kelli Tungay](https://unsplash.com/photos/Sj0nhVIb4eY) on [Unsplash](https://unsplash.com/)
